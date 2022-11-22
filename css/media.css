@@ -1,0 +1,367 @@
+@media only screen and (min-width: 976px) and (max-width: 1100px) {
+    .About .center-About img{
+        width: 500px;
+        height: 550px;
+    }
+    .About .center-About .prg {
+        padding: 0px;
+        width: 550px;
+        width: 300px;
+    }
+    .About .center-About .prg .hire a:last-child {
+        display: block;
+        margin-top: 20px;
+        width: fit-content;
+    }
+
+}
+/*#################################################################################################*/
+/*#################################################################################################*/
+/*#################################################################################################*/
+/*#################################################################################################*/
+/*#################################################################################################*/
+@media only screen and (min-width: 781px) and (max-width: 975px) {
+    body{
+        overflow-x: hidden;
+    }
+    .About .center-About{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .About .center-About img{
+        width: 500px;
+        height: 550px;
+    }
+    .About .center-About .prg {
+        padding: 0px;
+        width: 500px;
+    }
+    .My-skills .style-icon{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+    }
+    .Langueges-sen {
+        height: 300px;
+        width: 200px;
+        display: grid;
+        margin: auto;
+    }
+    .Langueges-bars-Arabic{
+        padding: 0px;
+        width: auto;
+        background: none;
+        box-shadow: none;
+        border-radius: 0;
+        transition: none;
+    }
+    .scroller {
+        top: 68px;
+    }
+    .content .content-div {
+        grid-template-columns: auto auto ;
+    }
+}
+/*#################################################################################################*/
+/*#################################################################################################*/
+/*#################################################################################################*/
+/*#################################################################################################*/
+/*#################################################################################################*/
+@media only screen and (min-width: 450px) and (max-width: 780px) {
+    ul{
+        width: 100%;
+        position: fixed;
+        flex-direction: column;
+        top: -100%;
+        margin: 0;
+        transition: all 1s ease-in-out;
+        background-color: #fff;
+    }
+    nav span {
+        display: block;
+        position: fixed;
+        padding: 10px;
+        right: 10px;
+        font-size: 25px;
+        color: #2f2b2b8c;
+        cursor: pointer;
+    }
+    .activenav{
+        top: 0;
+    }
+    nav ul li{
+        display: block;
+        margin: 10px 0 10px 0;
+        color: white;
+        border-right: none;
+    }
+    nav ul li:last-child {
+        border: none;
+    }
+    nav ul li a{
+        color: black;
+    }
+    .humberger{
+        display: block;
+        position: fixed;
+        right: 0;
+        z-index: 2;
+        color: darkgrey;
+    }
+    .About .center-About{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .About .center-About img{
+        width: 500px;
+        height: 550px;
+    }
+    .My-skills .style-icon{
+        display: grid;
+        grid-template-columns: auto auto auto ;
+    }
+    .Services .center-Services .Services-icon{
+        display: block;
+    }
+    .Experience-in{
+        padding: 20px;
+        width: 300px;
+        height: auto;
+    }
+    .Experience-in h3{
+        font-size: larger;
+    }
+    .Experience-in span{
+        font-size: small;
+    }
+    .Experience-in img{
+        position: relative;
+        width: 150px;
+        left: 55px;
+        margin: -30px 0 30px 0;
+    }
+    .courses .center-courses p:first-child::before{ 
+        margin: 0 0  0 70px;
+    }
+    .icons-courses{
+        width: auto;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    .center-courses-icon{
+        padding: 10px; 
+        display: block;
+    }
+    .icons-courses img{
+        position: absolute;
+        position: absolute;
+        left: calc((100% - 80px));
+        top: calc((100% - 80px) / 2);
+    }
+    .icons-courses span{
+        letter-spacing: 1px;
+        white-space: nowrap;
+    }
+    .icons-courses span strong{
+        margin-left:  32px;
+        font-weight: normal;
+    }
+    .icons-courses p:nth-child(3){
+    font-size: 18px;
+    }
+    .Langueges{
+        padding: 10px;
+    }
+    .Langueges-sen{
+        height: 250px;
+        width: 250px;
+    }
+    .Langueges-bars{
+        width: 400px;
+    }
+    .Langueges-bars-Arabic{
+        padding: 0px;
+        width: auto;
+        background: none;
+        box-shadow: none;
+        border-radius: 0;
+        transition: none;
+    }
+    .footer .center-footer {
+        padding: 0px;
+    }
+    .footer .center-cell .icon-cont {
+        width: auto;
+        text-transform: uppercase;
+    }
+    .footer .center-cell{
+        display: grid;
+        grid-template-columns: auto auto;
+        width: auto;
+    }
+    .footer .icon-cont{
+        margin-left: 20px;
+    }
+    .scroller {
+        top: 0px;
+    }
+    .content .content-div {
+        grid-template-columns: auto ;
+    }
+}
+/*#################################################################################################*/
+/*#################################################################################################*/
+/*#################################################################################################*/
+/*#################################################################################################*/
+/*#################################################################################################*/
+@media only screen and (min-width: 450px) and (max-width: 500px) {
+    .Langueges-bars{
+        width: 300px;
+    }
+    .Langueges-bars-Arabic{
+        margin-left: -100px;
+    }
+    nav ul li a{
+        color: black;
+    }
+    .scroller {
+        top: 0px;
+    }
+    .content .content-div {
+        grid-template-columns: auto ;
+    }
+}
+/*#################################################################################################*/
+/*#################################################################################################*/
+/*#################################################################################################*/
+/*#################################################################################################*/
+/*#################################################################################################*/
+@media only screen and (min-width: 300px) and (max-width: 450px) {
+    ul{
+        width: 100%;
+        position: fixed;
+        flex-direction: column;
+        top: -100%;
+        margin: 0;
+        transition: all 1s ease-in-out;
+        background-color: #fff;
+    }
+    nav span {
+        display: block;
+        position: fixed;
+        padding: 10px;
+        right: 10px;
+        font-size: 25px;
+        color: #2f2b2b8c;
+        cursor: pointer;
+    }
+    .activenav{
+        top: 0;
+    }
+    nav ul li{
+        display: block;
+        margin: 10px 0 10px 0;
+        color: white;
+        border-right: none;
+    }
+    nav ul li:last-child {
+        border: none;
+    }
+    nav ul li a{
+        color: black;
+    }
+    .humberger{
+        display: block;
+        position: fixed;
+        right: 0;
+        z-index: 2;
+        color: darkgrey;
+    }
+    .About .center-About{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .About .center-About img{
+        width: 300px;
+        height: 250px;
+    }
+    .About .center-About .prg {
+        padding: 0px;
+        width: 500px;
+        width: 300px;
+    }
+    .About .center-About .prg .hire a:last-child {
+        display: block;
+        margin-top: 20px;
+        width: fit-content;
+    }
+    .My-skills .style-icon{
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+    .Services .center-Services .Services-icon{
+        display: block;
+    }
+    .Experience-in{
+        padding: 10px;
+        width: 250px;
+        height: auto;
+    }
+    .Experience-in h3{
+        font-size: unset;
+    }
+    .Experience-in span{
+        font-size: small;
+    }
+    .Experience-in img{
+        position: relative;
+        width: 150px;
+        left: 50px;
+        margin: -30px 0 30px 0;
+    }
+    .courses .center-courses p:first-child::before{ 
+        margin: 0 0  0 70px;
+    }
+    .center-courses-icon{
+        display: block;
+    }
+    .icons-courses img {
+        display: none;
+    }
+    .icons-courses p:nth-child(3) {
+        position: relative;
+        top: 0px;
+        font-size: 18px;
+    }
+    .center-Strength-icon {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .Langueges-sen{
+        height: 250px;
+        width: 250px;
+    }
+    .Languages-he{
+        padding: 0;
+    }
+    .Langueges-bars {
+        width: 330px;
+    }
+    .Langueges-bars-Arabic{
+        display: none;
+    }
+    .footer .center-footer {
+        padding: 0px;
+    }
+    .content .content-div {
+        grid-template-columns: auto ;
+    }
+}
+@media only screen and (min-width: 0) and (max-width: 450px) {
+    .Langueges-bars {
+        width: 250px;
+    }
+    .scroller {
+        top: 0px;
+    }
+}
